@@ -8,6 +8,13 @@ const App = () => {
   return (
     <div className="ui container comments">
       <ApprovalCard>
+        <div>
+          <h4>Warning!</h4>
+          Are you sure you want to do this?
+        </div>
+      </ApprovalCard>
+
+      <ApprovalCard>
         <CommentDetail
           author="Sam"
           time="Today at 6:00pm"
