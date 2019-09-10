@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Faker from "faker";
 import CommentDetail from "./CommentDetail";
 import ApprovalCard from "./ApprovalCard";
+import Message from "./Message";
 
 const App = () => {
   return (
@@ -40,6 +41,11 @@ const App = () => {
           avatar={Faker.image.avatar()}
         />
       </ApprovalCard>
+
+      <Message
+        header="Changes in Service"
+        text="We just updated our privacy policy here to better service our customers."
+      ></Message>
     </div>
   );
 };
